@@ -1,7 +1,7 @@
 
-# B2STAGE plugin for Nagios
+# B2STAGE plugin for ARGO Monitoring. 
 
-Nagios plugin to check B2STAGE functionality
+A plugin that checks B2STAGE functionality(ies). This probe is used mainly it SeadDataCloud. 
 
 ## Usage
 
