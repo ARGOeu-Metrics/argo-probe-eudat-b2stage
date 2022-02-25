@@ -1,4 +1,4 @@
-PKGNAME=nagios-plugins-eudat-b2stage
+PKGNAME=argo-probe-eudat-b2stage
 SPECFILE=${PKGNAME}.spec
 FILES=Makefile ${SPECFILE} check_b2stage_http-api.py
 
