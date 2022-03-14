@@ -18,9 +18,10 @@ Nagios probe to check functionality of B2STAGE service
 
 %define _unpackaged_files_terminate_build 0 
 
+
 %install
 
-install -d %{buildroot}/%{_sysconfdir}/argo/probes/eudat-b2stage
+install -d %{buildroot}/%{_libexecdir}/argo/probes/eudat-b2stage
 install -m 755 check_b2stage_http-api.py %{buildroot}/%{_libexecdir}/argo/probes/eudat-b2stage/check_b2stage_http-api.py
 
 %files
