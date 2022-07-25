@@ -20,16 +20,16 @@ Nagios probe to check functionality of B2STAGE service
 
 %install
 
-install -d %{buildroot}/%{_libexecdir}/argo-monitoring/probes/eudat-b2stage
+install -d %{buildroot}/%{_libexecdir}/argo/probes/eudat-b2stage
 install -d %{buildroot}/%{_sysconfdir}/nagios/plugins/eudat-b2stage
-install -m 755 check_b2stage_http-api.py %{buildroot}/%{_libexecdir}/argo-monitoring/probes/eudat-b2stage/check_b2stage_http-api.py
+install -m 755 check_b2stage_http-api.py %{buildroot}/%{_libexecdir}/argo/probes/eudat-b2stage/check_b2stage_http-api.py
 
 %files
-%dir /%{_libexecdir}/argo-monitoring
-%dir /%{_libexecdir}/argo-monitoring/probes/
-%dir /%{_libexecdir}/argo-monitoring/probes/eudat-b2stage
+%dir /%{_libexecdir}/argo
+%dir /%{_libexecdir}/argo/probes/
+%dir /%{_libexecdir}/argo/probes/eudat-b2stage
 
-%attr(0755,root,root) /%{_libexecdir}/argo-monitoring/probes//eudat-b2stage/check_b2stage_http-api.py
+%attr(0755,root,root) /%{_libexecdir}/argo/probes/eudat-b2stage/check_b2stage_http-api.py
 
 %changelog
 * Mon Jul 25 2020 Themis Zamani  <themiszamani@gmail.com> - 1.0.1-1
