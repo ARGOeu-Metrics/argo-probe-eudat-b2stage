@@ -34,6 +34,8 @@ install -m 755 check_b2stage_http-api.py %{buildroot}/%{_libexecdir}/argo/probes
 %changelog
 * Fri Feb 25 2022 Themis Zamani  <themiszamani@gmail.com> - 1.0.1-1
 - Updates to spec file.
+* Mon May 04 2020 Themis Zamani  <themiszamani@gmail.com> - 0.9.1-1
+- Check service healthchek
 * Fri Apr 03 2020 Themis Zamani  <themiszamani@gmail.com> - 0.9-1
 - Small updates to messages
 * Fri Apr 03 2020 Themis Zamani  <themiszamani@gmail.com> - 0.8-1
