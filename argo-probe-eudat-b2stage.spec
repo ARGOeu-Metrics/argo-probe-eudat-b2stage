@@ -32,7 +32,7 @@ install -m 755 check_b2stage_http-api.py %{buildroot}/%{_libexecdir}/argo/probes
 %attr(0755,root,root) /%{_libexecdir}/argo/probes/eudat-b2stage/check_b2stage_http-api.py
 
 %changelog
-* Mon Jul 25 2020 Themis Zamani  <themiszamani@gmail.com> - 1.0.1-1
+* Mon Jul 25 2022 Themis Zamani  <themiszamani@gmail.com> - 1.0.1-1
 - Update request exceptions
 * Mon May 04 2020 Themis Zamani  <themiszamani@gmail.com> - 0.9.1-1
 - Check service healthchek
