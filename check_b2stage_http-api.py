@@ -83,6 +83,12 @@ def checkHealth(URL, timeout):
         description = "CRITICAL - Service unreachable"
         exit_code = 2
         return description, exit_code
+    
+    # Timeout will catch both ConnectTimout and ReadTimeout
+    except requests.exceptions.Timeout:
+        description = "CRITICAL - Timeout occurred"
+        exit_code = 2
+        return description, exit_code
 
     if out is None:
         description = "UNKNOWN - Status unknown"
