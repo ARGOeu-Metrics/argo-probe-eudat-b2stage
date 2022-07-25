@@ -48,3 +48,4 @@ install -m 755 check_b2stage_http-api.py %{buildroot}/%{_libexecdir}/argo/probes
 - Initial version of the package. 
 * Thu Oct 18 2018 Mattia D'Antonio  <m.dantonio@cineca.it> - 0.1-1
 - Initial version of the package. 
+
