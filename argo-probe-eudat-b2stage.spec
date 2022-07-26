@@ -1,4 +1,4 @@
-Name:		nagios-plugins-eudat-b2stage
+Name:		argo-probe-eudat-b2stage
 Version:	0.9.1
 Release:	1%{?dist}
 Summary:	Nagios probe for B2STAGE
