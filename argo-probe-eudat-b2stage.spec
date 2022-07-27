@@ -1,5 +1,5 @@
-Name:		nagios-plugins-eudat-b2stage
-Version:	0.9.1
+Name:		argo-probe-eudat-b2stage
+Version:	10.0.1
 Release:	1%{?dist}
 Summary:	Nagios probe for B2STAGE
 License:	GPLv3+
@@ -32,6 +32,8 @@ install -m 755 check_b2stage_http-api.py %{buildroot}/%{_libexecdir}/argo-monito
 %attr(0755,root,root) /%{_libexecdir}/argo-monitoring/probes//eudat-b2stage/check_b2stage_http-api.py
 
 %changelog
+* Wed Jul 27 2022 Themis Zamani  <themiszamani@gmail.com> - 10.0.1
+- Update error in exceptions 
 * Mon May 04 2020 Themis Zamani  <themiszamani@gmail.com> - 0.9.1-1
 - Check service healthchek
 * Fri Apr 03 2020 Themis Zamani  <themiszamani@gmail.com> - 0.9-1
@@ -46,3 +48,4 @@ install -m 755 check_b2stage_http-api.py %{buildroot}/%{_libexecdir}/argo-monito
 - Initial version of the package. 
 * Thu Oct 18 2018 Mattia D'Antonio  <m.dantonio@cineca.it> - 0.1-1
 - Initial version of the package. 
+
